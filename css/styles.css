@@ -1,0 +1,38 @@
+h4 {
+  font-style: italic;
+  font-family: monospace;
+  text-align: center;
+}
+
+.result {
+  border-radius: 7px;
+  display: none;
+}
+
+#sacha {
+  background-color: tan;
+}
+
+#licorice {
+  background-color: grey;
+}
+
+#pineapple {
+  background-color: yellow;
+}
+
+#celery {
+  background-color: green;
+}
+
+#granola {
+  background-color: brown;
+}
+
+#seaweed {
+  background-color: olive;
+}
+
+#cinnamon {
+  background-color: red;
+}

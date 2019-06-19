@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Snack Picker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Snack Picker</h4>
+      <p>You want a snack. What should you snack on?</p>
+      <form id="snackQuestions">
+        <label for="hungry">Are you actually hungry?</label>
+        <select id="hungry">
+         <option value="yes">Yes</option>
+         <option value="no">No</option>
+        </select>
+        <br>
+        <label for="protein">Have you had enough protein today?</label>
+        <select id="protein">
+         <option value="yes">Yes</option>
+         <option value="no">No</option>
+        </select>
+        <br>
+        <label for="sweet">Are you craving something sweet?</label>
+        <select id="sweet">
+         <option value="yes">Yes</option>
+         <option value="no">No</option>
+        </select>
+        <br>
+        <label for="salty">Are you craving something salty?</label>
+        <select id="salty">
+         <option value="yes">Yes</option>
+         <option value="no">No</option>
+        </select>
+        <br>
+        <label for="bedtime">Are you planning to go to bed in the next hour?</label>
+        <select id="bedtime">
+         <option value="yes">Yes</option>
+         <option value="no">No</option>
+        </select>
+        <br>
+        <button type="submit" class="btn-warning">submit</button>
+      </form>
+    </div>
+    <br>
+    <div class="container">
+      <div class="result" id="sacha">
+        You should snack on Sacha Inchi seeds. Not only are they supposedly some kind of miracle food loaded with protein and Omegas, they taste pretty bad! Perfect for not over snacking! Still palatable, though, especially salted.
+      </div>
+      <div class="result" id="licorice">
+        You should snack on salted black licorice. It's kind of sweet as well as salty; if you get certain kinds it basically tastes like poison, which will likely keep you from over-snacking.
+      </div>
+      <div class="result" id="pineapple">
+        You should snack on dried pineapple. It's sweet and very chewy, and tart enough that you eventually get sick of it and have to stop.
+      </div>
+      <div class="result" id="celery">
+        You should snack on raw celery sticks. Good, clean, crunchy, and essentially flavorless.
+      </div>
+      <div class="result" id="granola">
+        You should snack on Rebel Cruch granola. It very crunchy and a little bit sweet, but also bland enough to not make you want to eat too much or too fast. Also, it is cheap!
+      </div>
+      <div class="result" id="seaweed">
+        You should snack on dulse seaweed. It is super salty and also tough and sort of unpleasant.
+      </div>
+      <div class="result" id="cinnamon">
+        You should snack on cinnamon sticks that have been soaking in hot water. Basically, make yourself some cinnamon tea, which supposedly satisfies (or curbs?) sugar craving, and once the cinnamon stick is nice and soggy, chew on it, because that's all you really are after anyway. The less brittle, the chewier (and more pleasant than sharp broken cinnamon!), so it should last you a while.
+      </div>
+
+    </div>
+  </body>
+</html>
