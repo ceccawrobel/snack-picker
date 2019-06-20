@@ -15,14 +15,15 @@ $(document).ready(function() {
       $("#sacha").show();
     } else if (hungry === "no" && sweet === "yes" && salty === "yes") {
       $("#licorice").show();
-    } else if (hungry === "no" && sweet === "no" && salty === "no") {
+    } else if (sweet === "no" && salty === "no") {
       $("#celery").show();
     } else if (hungry === "no" && sweet === "yes" && salty === "no") {
       $("#cinnamon").show();
     } else if (hungry === "no" && sweet === "no" && salty === "yes") {
       $("#seaweed").show();
-    } else if (hungry === "yes" && protein === "yes") {
+    } else if (hungry === "yes" && protein === "yes" && sweet === "yes" && salty === "no") {
       $("#pineapple").show();
+    } else if (hungry === "yes" && protein === "yes" && sweet === "yes" && salty === "yes") {
       $("#granola").show();
     } else if (hungry === "no") {
       $("#licorice").show();
