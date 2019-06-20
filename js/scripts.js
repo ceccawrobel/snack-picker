@@ -23,6 +23,8 @@ $(document).ready(function() {
       $("#seaweed").show();
     } else if (hungry === "yes" && protein === "yes" && sweet === "yes" && salty === "no") {
       $("#pineapple").show();
+    } else if (hungry === "yes" && protein === "yes" && sweet === "no" && salty === "yes") {
+      $("#sacha").show();
     } else if (hungry === "yes" && protein === "yes" && sweet === "yes" && salty === "yes") {
       $("#granola").show();
     } else if (hungry === "no") {
