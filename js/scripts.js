@@ -8,7 +8,11 @@ $(document).ready(function() {
 
   $("#snackQuestions").submit(function(event) {
     event.preventDefault();
-
+    alert("inputs are " + hungry + ", " + protein + ", " + sweet + ", " + salty + ", " + bedtime);
+    if (hungry === "yes") {
+      $("#sacha").show();
+    } else {
     $(".result").show();
-  })
+  }
+  });
 });
