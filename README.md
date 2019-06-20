@@ -18,7 +18,7 @@ It is somewhat incomplete, and the logic could probably be more neatly organized
 5. If anything doesn't make sense, you can [let me know](mailto:ceccawrobel@gmail.com). You may also keep it to yourself! But I'm not too proud to accept feedback if you feel so inclined.
 ---
 **link**
-<!-- View "[cecca is](https://ceccawrobel.github.io/landing-page/)" on github pages -->
+View "[Snack Picker](https://ceccawrobel.github.io/snack-picker/)" on github pages
 ---
 **copyright**
 (c) cecca wrobel 2019*
