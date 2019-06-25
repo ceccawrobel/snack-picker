@@ -1,14 +1,16 @@
 
 $(document).ready(function() {
-  var hungry = $("select#hungry").val();
-  var protein = $("select#protein").val();
-  var sweet = $("select#sweet").val();
-  var salty = $("select#salty").val();
-  var bedtime = $("select#bedtime").val();
 
   $("#snackQuestions").submit(function(event) {
     event.preventDefault();
+    $(".result").hide()
+    var hungry = $("select#hungry").val();
+    var protein = $("select#protein").val();
+    var sweet = $("select#sweet").val();
+    var salty = $("select#salty").val();
+    var bedtime = $("select#bedtime").val();
     console.log("inputs are " + hungry + ", " + protein + ", " + sweet + ", " + salty + ", " + bedtime);
+
     if (hungry === "no" && bedtime === "yes") {
       $("#nosnack").show();
     } else if (protein === "no") {
